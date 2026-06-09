@@ -101,10 +101,6 @@ It ensures efficient water usage and allows farmers to monitor and control irrig
 ---
 
 ## Challenges & Solutions
-- **Reliable Voice-to-Text Integration**  
-  *Solution*: Used mobile-side voice processing to offload heavy computation, sending lightweight text commands.  
-- **Stable Wi-Fi Connectivity**  
-  *Solution*: Implemented periodic heartbeat checks and UART error handling.  
 - **Asynchronous Events**  
   *Solution*: Leveraged NVIC interrupts for instant response to button presses and critical sensor alerts.
 
